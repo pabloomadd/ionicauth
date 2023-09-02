@@ -12,16 +12,16 @@
       <ion-label>User Information: </ion-label>
     </ion-list-header>
     <ion-item>
-      <ion-label>username: {{ adminInfoReceived?.username }}</ion-label>
+      <ion-label>Usuario: {{ adminInfoReceived?.username }}</ion-label>
     </ion-item>
     <ion-item>
-      <ion-label>name: {{ adminInfoReceived?.name }}</ion-label>
+      <ion-label>Nombre: {{ adminInfoReceived?.name }}</ion-label>
     </ion-item>
     <ion-item>
-      <ion-label>last name: {{ adminInfoReceived?.last_name }}</ion-label>
+      <ion-label>Apellido: {{ adminInfoReceived?.last_name }}</ion-label>
     </ion-item>
     <ion-item>
-      <ion-label>education_level: {{ adminInfoReceived?.type }}
+      <ion-label>Tipo de Usario: {{ adminInfoReceived?.type }}
       </ion-label>
     </ion-item>
   </ion-list>
@@ -29,7 +29,7 @@
   <ion-button id="present-alert">Cambiar Contraseña</ion-button>
   <ion-alert
     trigger="present-alert"
-    header="Please enter your info"
+    header="Combio de Contraseña"
     [buttons]="alertButtons"
     [inputs]="alertInputs"
   ></ion-alert>

@@ -29,7 +29,7 @@ export class AdminPage implements OnInit {
 
   }
 
-  public alertButtons = ['OK'];
+  public alertButtons = ['Cambiar'];
   public alertInputs = [
     {
       placeholder: 'Nueva Contraseña',

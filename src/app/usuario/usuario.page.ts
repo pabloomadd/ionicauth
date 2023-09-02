@@ -37,7 +37,7 @@ export class UsuarioPage implements OnInit {
   }
   
   //PopUp para Cabmiar Contraseña
-  public alertButtons = ['OK'];
+  public alertButtons = ['Cambiar'];
   public alertInputs = [
   {
     placeholder: 'Contraseña',
